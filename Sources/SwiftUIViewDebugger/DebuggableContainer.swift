@@ -11,7 +11,7 @@ public struct DebuggableContainer<Content: View>: View {
     var content: Content
     @State var selectedSnapShotData: (AnyView?, Data?) = (nil,nil)
 
-    init(@ViewBuilder content: () -> Content) {
+    public init(@ViewBuilder content: () -> Content) {
         self.content = content()
     }
 
