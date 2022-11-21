@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "viewdebugger",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/whiteio/ViewDebugger",
+      "state" : {
+        "branch" : "main",
+        "revision" : "59f031b9ee5852910a97e168e9d0dd251b946888"
+      }
+    }
+  ],
+  "version" : 2
+}
