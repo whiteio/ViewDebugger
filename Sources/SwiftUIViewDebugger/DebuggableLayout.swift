@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DebuggableLayout: _VariadicView_UnaryViewRoot {
+struct DebuggableLayout: _VariadicView_MultiViewRoot {
     @Binding var selectedSnapShotData: (AnyView?, Data?)
 
     @ViewBuilder
