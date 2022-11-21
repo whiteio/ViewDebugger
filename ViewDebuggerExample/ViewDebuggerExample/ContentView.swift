@@ -10,13 +10,15 @@ import SwiftUIViewDebugger
 
 struct ContentView: View {
     var body: some View {
-        DebuggableContainer {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            DebuggableContainer {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello, world!")
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
